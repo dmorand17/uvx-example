@@ -6,5 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
 
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
 [project.scripts]
 uvx-example = "main:main"
