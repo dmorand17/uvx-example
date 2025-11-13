@@ -1,0 +1,17 @@
+[project]
+name = "uvx-example1"
+version = "0.1.0"
+description = "Example 1 for uvx project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["example"]
+
+[project.scripts]
+"example.example1" = "example.example1.main:main"

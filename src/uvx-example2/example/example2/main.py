@@ -1,5 +1,5 @@
 def main():
-    print("Hello from uvx-example!")
+    print("Hello from example2!")
 
 
 if __name__ == "__main__":
